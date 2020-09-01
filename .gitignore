@@ -42,7 +42,8 @@
 .idea/codeStyles/*.xml
 .idea/uiDesigner.xml
 .idea/vcs.xml
-.idea/misc.xml 
+.idea/misc.xml
+.idea/encodings.xml 
  
 # CMake
 cmake-build-*/
