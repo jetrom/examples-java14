@@ -17,4 +17,4 @@ jobs:
         with:
           java-version: 14.0
       - name: Build with Maven
-        trun: mvn -B verify --file pom.xml
+        run: mvn -B verify --file pom.xml
