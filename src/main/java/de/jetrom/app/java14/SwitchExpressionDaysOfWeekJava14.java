@@ -15,6 +15,7 @@ public class SwitchExpressionDaysOfWeekJava14 {
             case FRIDAY -> 5;
             case SATURDAY -> 6;
             case SUNDAY -> 7;
+          // default -> 7; anstelle von case SUNDAY -> 7    
         };
     }
     public static int numberOfLettersDayOfWeek(DayOfWeek dayOfWeek) {
@@ -25,6 +26,7 @@ public class SwitchExpressionDaysOfWeekJava14 {
             case TUESDAY -> 7;
             case THURSDAY, SATURDAY -> 8;
             case WEDNESDAY -> 9;
+            default -> 0;
         };
     }
 }
